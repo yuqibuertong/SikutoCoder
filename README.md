@@ -1,2 +1,2 @@
 # SikutoCoder
-code bu Sikuto
+code by Sikuto
