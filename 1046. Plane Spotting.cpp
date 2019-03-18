@@ -26,7 +26,7 @@ int main() {
 	  	for (j = len; j <= n; j++)
 	  		for (k = 0; k + j <= n; k++) {                
 	  			double sum = 0;                
-	  			for (q = k; q - k < j; q++) sum += plane[q];
+	  			for (q = k; q < k + j; q++) sum += plane[q];
 	  			p[c].st = k + 1;                
 	  			p[c].ed = j + k;                
 	  			p[c].ave = sum / j;                
