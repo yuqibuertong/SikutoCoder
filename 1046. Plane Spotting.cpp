@@ -17,7 +17,7 @@ bool cmp(period a, period b) {
 int main() {        
   	int t, i = 1, j, n, len, best, k, q, c;
 	int plane[300];
-	struct period p[00];  
+	struct period p[99999];  
   	scanf("%d", &t);      
   	while (t--) {
 	  	c = 0;               
