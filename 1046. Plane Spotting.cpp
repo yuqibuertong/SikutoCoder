@@ -2,8 +2,7 @@
 using namespace std; 
 
 struct period {    
-	int st,
-	int ed;
+	int st, ed;
 	double ave;
 }; 
  
