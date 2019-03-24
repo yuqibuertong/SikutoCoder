@@ -25,7 +25,6 @@ void solve(){
 			for(int k=0;k<1<<3;k++)if(!(k&j)&&ins[k|j])
 				dp[i][j]+=dp[i-1][k];
 		}
-			
 	printf("%lld\n",dp[n][0]);
 }
 
