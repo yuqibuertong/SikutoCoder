@@ -9,7 +9,7 @@ void read_and_parse(){
 	memset(ins,0,sizeof(ins));
 	for(int i=0;i<1<<3;i++){
 		bool has_odd=0,cnt=0;
-		for(int j=0;j<3;j++){
+		for (int j=0;j<3;j++){
 			if((i>>j&1)==1)has_odd|=cnt,cnt=0;
 			else cnt^=1;
 		}
