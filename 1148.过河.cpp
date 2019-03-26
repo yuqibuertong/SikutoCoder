@@ -6,7 +6,7 @@ int l, s, t, m, pos[101], f[maxn];
 bool has[maxn];
 
 int num(){
-	int i, j, k = 0, temp = 0;
+    int i, j, k = 0, temp = 0;
     if (s == t) {
         for (i = 1; i <= m; i++)
 			if (pos[i] % s == 0) k++;
