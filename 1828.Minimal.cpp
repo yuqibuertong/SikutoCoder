@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-const int maxn = 501, inf = 99999999;
+const int maxn = 501;
 int a[maxn], b[maxn], n, m;
 int f[maxn][maxn];
 
@@ -21,7 +21,7 @@ int num() {
 }
 
 int main() {
-	int k, n, m, i;
+	int k, i;
 	scanf("%d", &k);
 	while (k--) {
 		scanf("%d %d", &n, &m);
