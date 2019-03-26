@@ -22,7 +22,7 @@ double num() {
 }
 
 int main() {
-	int i, j;
+	int i;
 	while (scanf("%d", &n) != EOF) {
 		for (i = 0; i < n; i++) scanf("%d %d", &x[i], &y[i]);
 		printf("%.2lf\n", num());
