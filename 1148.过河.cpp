@@ -6,10 +6,10 @@ int l, s, t, m, pos[101], f[maxn];
 bool has[maxn];
 
 int num(){
-    int i, j, k = 0, temp = 0;
+	int i, j, k = 0, temp = 0;
     if (s == t) {
         for (i = 1; i <= m; i++)
-			if (pos[i] % s == 0) k++;
+		if (pos[i] % s == 0) k++;
         return k;
     }
     memset(f, 0x3f, sizeof(f));
@@ -24,7 +24,7 @@ int num(){
         for (j = s; j <= t; j++)
 			if (i >= j) f[i] = min(f[i], f[i - j] + has[i]);
     k = 1e9;
-    for (i = temp; i <= temp + 9; i++) k = min(k,f[i]);
+    for (i = temp; i <= temp + 9; i++) k = min(k, f[i]);
     return k;
 }
 
